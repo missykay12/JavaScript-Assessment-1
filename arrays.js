@@ -1,10 +1,10 @@
 //1. What is the lenth of the following contacts array?
 
 var contacts = [];
-
+for (var i = 0; i < contacts.length; i++) {}
 
 //2. Add the following people to the contacts array.
-
+var contacts =["Jake Overall", "Matt Overall", "Chris Hoyd", "Tony Carolla", "Andrew Hansen", "Stefan Nuxoll"]
 var jake = {
 	name: 'Jake Overall',
 	email: 'jake.overall@boisecodeworks.com',
@@ -38,4 +38,4 @@ var stefan = {
 
 
 //3. Woops after adding all of those people to the same contacts list you realized you need a list just the mentors. Create a new variable named mentors populate it using contacts array. 
-
+var mentors =["Tony Carolla", "Andrew Hansen", "Stefan Nuxoll"]
